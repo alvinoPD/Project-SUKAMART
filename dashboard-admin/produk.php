@@ -1,6 +1,7 @@
 <?php
 include '../database/config.php';
 include '../part/nav.php';
+
 ?> 
 
 <!DOCTYPE html>
@@ -18,7 +19,7 @@ include '../part/nav.php';
     </div>
 
     <div class="botton-tambah">
-        <button><a href+=""><h1>+</h1></a></button>
+        <button><a href="../crud/tambah.php"><h1>+</h1></a></button>
     </div>
 
 </body>
