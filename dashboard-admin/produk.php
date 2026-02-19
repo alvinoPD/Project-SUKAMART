@@ -19,11 +19,11 @@ include '../part/nav.php';
     </div>
     <div>
         <?php
-        include '../crud/read.php';
+        include '../crud/read-admin.php';
         ?>
     </div>
-    <div class="botton-tambah">
-        <button><a href="../crud/tambah.php"><h1>+</h1></a></button>
+    <div class="tambah">
+        <button class= "botton-tambah"><a href="../crud/tambah.php"><h1>+</h1></a></button>
     </div>
 
 </body>

@@ -25,7 +25,7 @@ $data = mysqli_fetch_assoc($query);
     <title>Document</title>
 </head>
 <body>
-    <form action="proses-edit.php" method="POST" enctype="multipart/form-data" class="form-edit">
+    <form action="../crud/update.php" method="POST" enctype="multipart/form-data" class="form-edit">
 
     <!-- ID hidden (penting buat update) -->
     <input type="hidden" name="id" value="<?= $data['id']; ?>">
@@ -34,7 +34,7 @@ $data = mysqli_fetch_assoc($query);
     <div class="form-group">
         <label>Foto Produk</label><br>
         <img src="../src/<?= $data['image']; ?>" width="120"><br><br>
-        <input type="file" name="image">
+        <input type="file" name="foto">
     </div>
 
     <br>
